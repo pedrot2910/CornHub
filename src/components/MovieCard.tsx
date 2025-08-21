@@ -13,7 +13,7 @@ const MovieCard = ({ movie }: props) => {
                 src={`https://image.tmdb.org/t/p/w300${movie.poster_path}`} 
                 alt={movie.title}
                 className='w-full h-auto'
-                 />
+                />
                 <div className="p-2">
                     <h2 className="text-lg font-semibold"></h2>
                     <p className="text-sm text-gray-400">
